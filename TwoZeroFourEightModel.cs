@@ -13,11 +13,12 @@ namespace twozerofoureight
         protected Random rand;
         private int score = 2;
 
-        public int getscore()
+        public int getsetscore
         {
-            return score;
-               
+            get { return score; }
+            set { score = value;}
         }
+            
 
 
         public TwoZeroFourEightModel() : this(4)
